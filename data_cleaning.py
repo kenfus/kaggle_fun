@@ -3,6 +3,9 @@
 Created on Fri Jun  7 15:54:39 2019
 
 @author: Vincenzo
+
+It's a python script to clean data and add feature engineering without copy paste it each time I changed something 
+for test, train data.
 """
 from sklearn.preprocessing import StandardScaler
 import numpy as np
