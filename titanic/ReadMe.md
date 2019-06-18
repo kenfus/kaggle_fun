@@ -12,3 +12,5 @@ The final tuning finally brought me above 0.8 accuracy (Final score: 0.80861 on 
 
 ## TODO:
 Improve Kaggle-Score. I don't want to "overfit" to the public leaderboard, but I also want a better score. Probably check out other kernels for smart feature engineering without creating information which couldn't be used on a "future titanic".
+
+![XGBoost](model_stacking.png)
