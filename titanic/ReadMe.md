@@ -1,7 +1,7 @@
 # Titanic: Machine Learning from Disaster
 ## General Approach
 After many minutes of thought, I decided on a ensemble-model, mostly because I never used one. I used the Sklearn and the XBG-Boost package.
-To tune the parameters, I used GridSearchCV with a standard 5-fold approach. I also used a test/train-split to see how my model is improving by tuning and adding models. This gave me a score of 0.773. However, I wanted to reach Top 10% (above ~0.8) without using any tricks.
+To tune the parameters, I used GridSearchCV with a standard 5-fold approach. I also used a test/train-split to see how my model is improving by tuning and adding models. This gave me a score of 0.773. However, I wanted to reach Top 10% (above ~0.8) without using any tricks (Like downloading a dictionary with the titanic-survivors).
 
 ## Final tuning to reach Top 10%
 After having exhausted the ensemble-model, I turned to feature engineering. My first idea was that senior people will give up their seat in the life rafts and/or just not make it to safety, while children will be prioritized. This made me create age-categories.
