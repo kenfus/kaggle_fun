@@ -1,0 +1,603 @@
+WARNING: Logging before flag parsing goes to stderr.
+W0823 05:35:57.322113 47862168563136 deprecation_wrapper.py:119] From blindness-detection-kaggle_keras_d_aug.py:57: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+W0823 05:35:57.322782 47862168563136 deprecation_wrapper.py:119] From blindness-detection-kaggle_keras_d_aug.py:57: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+2019-08-23 05:35:57.345027: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 AVX512F FMA
+2019-08-23 05:35:57.364232: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2700000000 Hz
+2019-08-23 05:35:57.368267: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x54fbf20 executing computations on platform Host. Devices:
+2019-08-23 05:35:57.368306: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): <undefined>, <undefined>
+W0823 05:47:07.067816 47862168563136 deprecation_wrapper.py:119] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/backend/tensorflow_backend.py:95: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+W0823 05:47:07.068826 47862168563136 deprecation_wrapper.py:119] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/backend/tensorflow_backend.py:98: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+W0823 05:47:07.074245 47862168563136 deprecation_wrapper.py:119] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/backend/tensorflow_backend.py:102: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+W0823 05:47:07.099507 47862168563136 deprecation_wrapper.py:119] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/backend/tensorflow_backend.py:3976: The name tf.nn.max_pool is deprecated. Please use tf.nn.max_pool2d instead.
+
+W0823 05:47:07.210558 47862168563136 deprecation.py:506] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/backend/tensorflow_backend.py:3445: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+W0823 05:47:07.485226 47862168563136 deprecation_wrapper.py:119] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/keras/optimizers.py:790: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+W0823 05:47:07.491121 47862168563136 deprecation.py:323] From /cluster/home/vtimmel/.local/lib64/python3.6/site-packages/tensorflow/python/ops/nn_impl.py:180: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2019-08-23 05:47:14.087578: W tensorflow/compiler/jit/mark_for_compilation_pass.cc:1412] (One-time warning): Not using XLA:CPU for cluster because envvar TF_XLA_FLAGS=--tf_xla_cpu_global_jit was not set.  If you want XLA:CPU, either set that envvar, or use experimental_jit_scope to enable XLA:CPU.  To confirm that XLA is active, pass --vmodule=xla_compilation_cache=1 (as a proper command-line flag, not via TF_XLA_FLAGS) or set the envvar XLA_FLAGS=--xla_hlo_profile.
+Loading succesful
+['test.csv', 'sample_submission.csv', 'train.csv', 'extract-zip.py', 'train_images']
+3662
+1  of  3662 Label:  0
+2  of  3662 Label:  0
+3  of  3662 Label:  0
+4  of  3662 Label:  2
+100  of  3662 Label:  0
+101  of  3662 Label:  0
+102  of  3662 Label:  0
+103  of  3662 Label:  2
+104  of  3662 Label:  3
+200  of  3662 Label:  2
+201  of  3662 Label:  0
+202  of  3662 Label:  0
+203  of  3662 Label:  0
+204  of  3662 Label:  2
+300  of  3662 Label:  0
+301  of  3662 Label:  0
+302  of  3662 Label:  4
+303  of  3662 Label:  0
+304  of  3662 Label:  2
+400  of  3662 Label:  0
+401  of  3662 Label:  0
+402  of  3662 Label:  2
+403  of  3662 Label:  1
+404  of  3662 Label:  2
+500  of  3662 Label:  2
+501  of  3662 Label:  0
+502  of  3662 Label:  0
+503  of  3662 Label:  2
+504  of  3662 Label:  4
+600  of  3662 Label:  1
+601  of  3662 Label:  4
+602  of  3662 Label:  0
+603  of  3662 Label:  4
+604  of  3662 Label:  0
+700  of  3662 Label:  0
+701  of  3662 Label:  2
+702  of  3662 Label:  0
+703  of  3662 Label:  0
+704  of  3662 Label:  0
+800  of  3662 Label:  0
+801  of  3662 Label:  2
+802  of  3662 Label:  0
+803  of  3662 Label:  2
+804  of  3662 Label:  0
+900  of  3662 Label:  4
+901  of  3662 Label:  0
+902  of  3662 Label:  2
+903  of  3662 Label:  2
+904  of  3662 Label:  0
+1000  of  3662 Label:  0
+1001  of  3662 Label:  0
+1002  of  3662 Label:  2
+1003  of  3662 Label:  0
+1004  of  3662 Label:  0
+1100  of  3662 Label:  4
+1101  of  3662 Label:  0
+1102  of  3662 Label:  2
+1103  of  3662 Label:  0
+1104  of  3662 Label:  2
+1200  of  3662 Label:  0
+1201  of  3662 Label:  1
+1202  of  3662 Label:  0
+1203  of  3662 Label:  0
+1204  of  3662 Label:  0
+1300  of  3662 Label:  0
+1301  of  3662 Label:  0
+1302  of  3662 Label:  0
+1303  of  3662 Label:  0
+1304  of  3662 Label:  2
+1400  of  3662 Label:  2
+1401  of  3662 Label:  0
+1402  of  3662 Label:  0
+1403  of  3662 Label:  0
+1404  of  3662 Label:  2
+1500  of  3662 Label:  1
+1501  of  3662 Label:  2
+1502  of  3662 Label:  0
+1503  of  3662 Label:  1
+1504  of  3662 Label:  2
+1600  of  3662 Label:  2
+1601  of  3662 Label:  2
+1602  of  3662 Label:  2
+1603  of  3662 Label:  2
+1604  of  3662 Label:  0
+1700  of  3662 Label:  0
+1701  of  3662 Label:  0
+1702  of  3662 Label:  0
+1703  of  3662 Label:  2
+1704  of  3662 Label:  0
+1800  of  3662 Label:  0
+1801  of  3662 Label:  0
+1802  of  3662 Label:  4
+1803  of  3662 Label:  2
+1804  of  3662 Label:  0
+1900  of  3662 Label:  1
+1901  of  3662 Label:  2
+1902  of  3662 Label:  0
+1903  of  3662 Label:  2
+1904  of  3662 Label:  0
+2000  of  3662 Label:  2
+2001  of  3662 Label:  2
+2002  of  3662 Label:  1
+2003  of  3662 Label:  2
+2004  of  3662 Label:  1
+2100  of  3662 Label:  1
+2101  of  3662 Label:  2
+2102  of  3662 Label:  0
+2103  of  3662 Label:  4
+2104  of  3662 Label:  2
+2200  of  3662 Label:  0
+2201  of  3662 Label:  1
+2202  of  3662 Label:  0
+2203  of  3662 Label:  4
+2204  of  3662 Label:  0
+2300  of  3662 Label:  2
+2301  of  3662 Label:  0
+2302  of  3662 Label:  2
+2303  of  3662 Label:  0
+2304  of  3662 Label:  0
+2400  of  3662 Label:  2
+2401  of  3662 Label:  3
+2402  of  3662 Label:  2
+2403  of  3662 Label:  0
+2404  of  3662 Label:  0
+2500  of  3662 Label:  3
+2501  of  3662 Label:  0
+2502  of  3662 Label:  0
+2503  of  3662 Label:  2
+2504  of  3662 Label:  4
+2600  of  3662 Label:  1
+2601  of  3662 Label:  0
+2602  of  3662 Label:  4
+2603  of  3662 Label:  2
+2604  of  3662 Label:  0
+2700  of  3662 Label:  3
+2701  of  3662 Label:  2
+2702  of  3662 Label:  2
+2703  of  3662 Label:  2
+2704  of  3662 Label:  0
+2800  of  3662 Label:  0
+2801  of  3662 Label:  3
+2802  of  3662 Label:  3
+2803  of  3662 Label:  3
+2804  of  3662 Label:  3
+2900  of  3662 Label:  2
+2901  of  3662 Label:  2
+2902  of  3662 Label:  0
+2903  of  3662 Label:  0
+2904  of  3662 Label:  0
+3000  of  3662 Label:  0
+3001  of  3662 Label:  0
+3002  of  3662 Label:  0
+3003  of  3662 Label:  0
+3004  of  3662 Label:  0
+3100  of  3662 Label:  3
+3101  of  3662 Label:  2
+3102  of  3662 Label:  0
+3103  of  3662 Label:  2
+3104  of  3662 Label:  0
+3200  of  3662 Label:  0
+3201  of  3662 Label:  3
+3202  of  3662 Label:  0
+3203  of  3662 Label:  0
+3204  of  3662 Label:  2
+3300  of  3662 Label:  2
+3301  of  3662 Label:  1
+3302  of  3662 Label:  2
+3303  of  3662 Label:  2
+3304  of  3662 Label:  4
+3400  of  3662 Label:  1
+3401  of  3662 Label:  0
+3402  of  3662 Label:  4
+3403  of  3662 Label:  0
+3404  of  3662 Label:  0
+3500  of  3662 Label:  0
+3501  of  3662 Label:  2
+3502  of  3662 Label:  0
+3503  of  3662 Label:  1
+3504  of  3662 Label:  0
+3600  of  3662 Label:  2
+3601  of  3662 Label:  0
+3602  of  3662 Label:  0
+3603  of  3662 Label:  4
+3604  of  3662 Label:  2
+[[1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 0. 0. 0. 0.]
+ [1. 1. 1. 0. 0.]
+ [1. 0. 0. 0. 0.]]
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+conv2d_1 (Conv2D)            (None, 167, 167, 192)     28416     
+_________________________________________________________________
+p_re_lu_1 (PReLU)            (None, 167, 167, 192)     5354688   
+_________________________________________________________________
+max_pooling2d_1 (MaxPooling2 (None, 84, 84, 192)       0         
+_________________________________________________________________
+conv2d_2 (Conv2D)            (None, 84, 84, 256)       442624    
+_________________________________________________________________
+p_re_lu_2 (PReLU)            (None, 84, 84, 256)       1806336   
+_________________________________________________________________
+max_pooling2d_2 (MaxPooling2 (None, 42, 42, 256)       0         
+_________________________________________________________________
+conv2d_3 (Conv2D)            (None, 42, 42, 384)       885120    
+_________________________________________________________________
+p_re_lu_3 (PReLU)            (None, 42, 42, 384)       677376    
+_________________________________________________________________
+max_pooling2d_3 (MaxPooling2 (None, 21, 21, 384)       0         
+_________________________________________________________________
+conv2d_4 (Conv2D)            (None, 21, 21, 496)       1714672   
+_________________________________________________________________
+p_re_lu_4 (PReLU)            (None, 21, 21, 496)       218736    
+_________________________________________________________________
+conv2d_5 (Conv2D)            (None, 21, 21, 496)       2214640   
+_________________________________________________________________
+p_re_lu_5 (PReLU)            (None, 21, 21, 496)       218736    
+_________________________________________________________________
+max_pooling2d_4 (MaxPooling2 (None, 11, 11, 496)       0         
+_________________________________________________________________
+conv2d_6 (Conv2D)            (None, 11, 11, 384)       1714560   
+_________________________________________________________________
+p_re_lu_6 (PReLU)            (None, 11, 11, 384)       46464     
+_________________________________________________________________
+max_pooling2d_5 (MaxPooling2 (None, 6, 6, 384)         0         
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 13824)             0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 4096)              56627200  
+_________________________________________________________________
+p_re_lu_7 (PReLU)            (None, 4096)              4096      
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 4096)              0         
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 4096)              16384     
+_________________________________________________________________
+dense_2 (Dense)              (None, 4096)              16781312  
+_________________________________________________________________
+p_re_lu_8 (PReLU)            (None, 4096)              4096      
+_________________________________________________________________
+dropout_2 (Dropout)          (None, 4096)              0         
+_________________________________________________________________
+batch_normalization_2 (Batch (None, 4096)              16384     
+_________________________________________________________________
+dense_3 (Dense)              (None, 1000)              4097000   
+_________________________________________________________________
+p_re_lu_9 (PReLU)            (None, 1000)              1000      
+_________________________________________________________________
+dropout_3 (Dropout)          (None, 1000)              0         
+_________________________________________________________________
+batch_normalization_3 (Batch (None, 1000)              4000      
+_________________________________________________________________
+dense_4 (Dense)              (None, 5)                 5005      
+=================================================================
+Total params: 92,878,845
+Trainable params: 92,860,461
+Non-trainable params: 18,384
+_________________________________________________________________
+Epoch 1/300
+ - 1434s - loss: 30.1590 - acc: 0.6970 - val_loss: 4.0326 - val_acc: 0.7262
+val_kappa: 0.0005
+Validation Kappa has improved. Saving model.
+Epoch 2/300
+ - 1421s - loss: 2.7272 - acc: 0.8342 - val_loss: 2.1550 - val_acc: 0.7273
+val_kappa: 0.0000
+Epoch 3/300
+ - 1426s - loss: 1.9196 - acc: 0.8524 - val_loss: 2.0311 - val_acc: 0.7273
+val_kappa: 0.0000
+Epoch 4/300
+ - 1426s - loss: 1.5981 - acc: 0.8575 - val_loss: 2.2082 - val_acc: 0.7273
+val_kappa: 0.0000
+Epoch 5/300
+ - 1460s - loss: 1.2410 - acc: 0.8666 - val_loss: 1.1244 - val_acc: 0.7753
+val_kappa: 0.0000
+Epoch 6/300
+ - 1422s - loss: 0.9756 - acc: 0.8707 - val_loss: 0.9848 - val_acc: 0.7753
+val_kappa: 0.0000
+Epoch 7/300
+ - 1451s - loss: 0.8757 - acc: 0.8732 - val_loss: 1.0851 - val_acc: 0.7753
+val_kappa: 0.0000
+Epoch 8/300
+ - 1433s - loss: 0.8959 - acc: 0.8746 - val_loss: 1.0045 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 9/300
+ - 1455s - loss: 0.8544 - acc: 0.8781 - val_loss: 1.0379 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 10/300
+ - 1430s - loss: 0.8496 - acc: 0.8763 - val_loss: 1.0279 - val_acc: 0.7753
+val_kappa: 0.0000
+Epoch 11/300
+ - 1453s - loss: 0.8367 - acc: 0.8780 - val_loss: 0.8481 - val_acc: 0.7753
+val_kappa: 0.0000
+Epoch 12/300
+ - 1429s - loss: 0.7213 - acc: 0.8796 - val_loss: 0.8812 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 13/300
+ - 1450s - loss: 0.8067 - acc: 0.8750 - val_loss: 0.9493 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 14/300
+ - 1387s - loss: 0.6980 - acc: 0.8809 - val_loss: 0.9164 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 15/300
+ - 1299s - loss: 0.7821 - acc: 0.8783 - val_loss: 1.1234 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 16/300
+ - 1297s - loss: 0.7118 - acc: 0.8800 - val_loss: 0.7892 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 17/300
+ - 1273s - loss: 0.8395 - acc: 0.8733 - val_loss: 0.8361 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 18/300
+ - 1327s - loss: 0.8576 - acc: 0.8776 - val_loss: 1.1701 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 19/300
+ - 1282s - loss: 0.8155 - acc: 0.8823 - val_loss: 0.8421 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 20/300
+ - 1326s - loss: 0.7307 - acc: 0.8813 - val_loss: 1.0230 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 21/300
+ - 1326s - loss: 0.7773 - acc: 0.8798 - val_loss: 0.8563 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 22/300
+ - 1363s - loss: 0.5156 - acc: 0.8864 - val_loss: 0.5709 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 23/300
+ - 1389s - loss: 0.4091 - acc: 0.8864 - val_loss: 0.5368 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 24/300
+ - 1315s - loss: 0.3855 - acc: 0.8897 - val_loss: 0.5282 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 25/300
+ - 1296s - loss: 0.3880 - acc: 0.8877 - val_loss: 0.5352 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 26/300
+ - 1304s - loss: 0.3864 - acc: 0.8889 - val_loss: 0.5197 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 27/300
+ - 1299s - loss: 0.3967 - acc: 0.8890 - val_loss: 0.5453 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 28/300
+ - 1296s - loss: 0.3858 - acc: 0.8898 - val_loss: 0.5332 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 29/300
+ - 1320s - loss: 0.3851 - acc: 0.8907 - val_loss: 0.5392 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 30/300
+ - 1297s - loss: 0.3817 - acc: 0.8917 - val_loss: 0.5360 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 31/300
+ - 1335s - loss: 0.3785 - acc: 0.8917 - val_loss: 0.5336 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 32/300
+ - 1299s - loss: 0.3533 - acc: 0.8958 - val_loss: 0.5027 - val_acc: 0.7825
+val_kappa: 0.0000
+Epoch 33/300
+ - 1353s - loss: 0.3230 - acc: 0.8983 - val_loss: 0.4793 - val_acc: 0.7785
+val_kappa: -0.0104
+Epoch 34/300
+ - 1290s - loss: 0.3203 - acc: 0.8973 - val_loss: 0.4787 - val_acc: 0.7942
+val_kappa: 0.0828
+Validation Kappa has improved. Saving model.
+Epoch 35/300
+ - 1316s - loss: 0.3136 - acc: 0.9005 - val_loss: 0.4701 - val_acc: 0.8051
+val_kappa: 0.1372
+Validation Kappa has improved. Saving model.
+Epoch 36/300
+ - 1302s - loss: 0.3191 - acc: 0.8968 - val_loss: 0.4691 - val_acc: 0.7818
+val_kappa: 0.0534
+Epoch 37/300
+ - 1325s - loss: 0.3142 - acc: 0.8999 - val_loss: 0.4679 - val_acc: 0.8018
+val_kappa: 0.1680
+Validation Kappa has improved. Saving model.
+Epoch 38/300
+ - 1307s - loss: 0.3173 - acc: 0.8997 - val_loss: 0.4750 - val_acc: 0.7985
+val_kappa: 0.2100
+Validation Kappa has improved. Saving model.
+Epoch 39/300
+ - 1322s - loss: 0.3117 - acc: 0.9026 - val_loss: 0.4677 - val_acc: 0.8098
+val_kappa: 0.2584
+Validation Kappa has improved. Saving model.
+Epoch 40/300
+ - 1303s - loss: 0.3145 - acc: 0.8995 - val_loss: 0.4750 - val_acc: 0.8062
+val_kappa: 0.2927
+Validation Kappa has improved. Saving model.
+Epoch 41/300
+ - 1302s - loss: 0.3079 - acc: 0.9035 - val_loss: 0.4765 - val_acc: 0.8065
+val_kappa: 0.2273
+Epoch 42/300
+ - 1325s - loss: 0.3036 - acc: 0.9044 - val_loss: 0.5023 - val_acc: 0.7905
+val_kappa: 0.2231
+Epoch 43/300
+ - 1306s - loss: 0.3017 - acc: 0.9053 - val_loss: 0.4958 - val_acc: 0.8025
+val_kappa: 0.2604
+Epoch 44/300
+ - 1341s - loss: 0.3135 - acc: 0.9005 - val_loss: 0.4955 - val_acc: 0.8135
+val_kappa: 0.3696
+Validation Kappa has improved. Saving model.
+Epoch 45/300
+ - 1390s - loss: 0.3059 - acc: 0.9048 - val_loss: 0.4937 - val_acc: 0.8047
+val_kappa: 0.2730
+Epoch 46/300
+ - 1460s - loss: 0.3068 - acc: 0.9041 - val_loss: 0.4989 - val_acc: 0.8109
+val_kappa: 0.3171
+Epoch 47/300
+ - 1328s - loss: 0.3030 - acc: 0.9049 - val_loss: 0.5026 - val_acc: 0.8055
+val_kappa: 0.3027
+Epoch 48/300
+ - 1297s - loss: 0.2978 - acc: 0.9068 - val_loss: 0.5320 - val_acc: 0.8058
+val_kappa: 0.2361
+Epoch 49/300
+ - 1282s - loss: 0.2960 - acc: 0.9084 - val_loss: 0.5505 - val_acc: 0.7902
+val_kappa: 0.2436
+Epoch 50/300
+ - 1295s - loss: 0.3007 - acc: 0.9045 - val_loss: 0.5438 - val_acc: 0.8022
+val_kappa: 0.2478
+Epoch 51/300
+ - 1276s - loss: 0.3069 - acc: 0.9039 - val_loss: 0.5144 - val_acc: 0.8011
+val_kappa: 0.2743
+Epoch 52/300
+ - 1335s - loss: 0.3023 - acc: 0.9055 - val_loss: 0.5152 - val_acc: 0.8105
+val_kappa: 0.3303
+Epoch 53/300
+ - 1279s - loss: 0.2996 - acc: 0.9071 - val_loss: 0.5263 - val_acc: 0.8062
+val_kappa: 0.3112
+Epoch 54/300
+ - 1273s - loss: 0.3024 - acc: 0.9042 - val_loss: 0.6394 - val_acc: 0.7655
+val_kappa: 0.1498
+Epoch 55/300
+ - 1298s - loss: 0.2960 - acc: 0.9076 - val_loss: 0.5293 - val_acc: 0.8087
+val_kappa: 0.3088
+Epoch 56/300
+ - 1281s - loss: 0.2972 - acc: 0.9059 - val_loss: 0.5601 - val_acc: 0.7945
+val_kappa: 0.2652
+Epoch 57/300
+ - 1304s - loss: 0.2940 - acc: 0.9076 - val_loss: 0.5395 - val_acc: 0.7949
+val_kappa: 0.2528
+Epoch 58/300
+ - 1267s - loss: 0.2907 - acc: 0.9075 - val_loss: 0.5081 - val_acc: 0.8131
+val_kappa: 0.3299
+Epoch 59/300
+ - 1299s - loss: 0.2984 - acc: 0.9059 - val_loss: 0.5779 - val_acc: 0.7949
+val_kappa: 0.2629
+Epoch 60/300
+ - 1284s - loss: 0.2964 - acc: 0.9077 - val_loss: 0.5459 - val_acc: 0.8007
+val_kappa: 0.2849
+Epoch 61/300
+ - 1303s - loss: 0.2921 - acc: 0.9082 - val_loss: 0.5804 - val_acc: 0.7865
+val_kappa: 0.2427
+Epoch 62/300
+ - 1285s - loss: 0.2963 - acc: 0.9059 - val_loss: 0.5436 - val_acc: 0.7945
+val_kappa: 0.2708
+Epoch 63/300
+ - 1306s - loss: 0.3013 - acc: 0.9056 - val_loss: 0.5141 - val_acc: 0.8316
+val_kappa: 0.4144
+Validation Kappa has improved. Saving model.
+Epoch 64/300
+ - 1284s - loss: 0.2941 - acc: 0.9090 - val_loss: 0.5016 - val_acc: 0.8167
+val_kappa: 0.3403
+Epoch 65/300
+ - 1304s - loss: 0.2907 - acc: 0.9086 - val_loss: 0.4985 - val_acc: 0.8105
+val_kappa: 0.3376
+Epoch 66/300
+ - 1319s - loss: 0.2910 - acc: 0.9084 - val_loss: 0.4815 - val_acc: 0.8233
+val_kappa: 0.3706
+Epoch 67/300
+ - 1422s - loss: 0.2970 - acc: 0.9048 - val_loss: 0.4936 - val_acc: 0.8316
+val_kappa: 0.4028
+Epoch 68/300
+ - 1445s - loss: 0.2889 - acc: 0.9094 - val_loss: 0.5522 - val_acc: 0.7989
+val_kappa: 0.2884
+Epoch 69/300
+ - 1429s - loss: 0.2894 - acc: 0.9081 - val_loss: 0.5215 - val_acc: 0.8244
+val_kappa: 0.3923
+Epoch 70/300
+ - 1492s - loss: 0.2930 - acc: 0.9063 - val_loss: 0.5508 - val_acc: 0.7967
+val_kappa: 0.2610
+Epoch 71/300
+ - 1442s - loss: 0.2918 - acc: 0.9071 - val_loss: 0.5107 - val_acc: 0.8080
+val_kappa: 0.3117
+Epoch 72/300
+ - 1465s - loss: 0.2915 - acc: 0.9080 - val_loss: 0.5684 - val_acc: 0.7873
+val_kappa: 0.2405
+Epoch 73/300
+ - 1437s - loss: 0.2867 - acc: 0.9095 - val_loss: 0.4889 - val_acc: 0.8371
+val_kappa: 0.4451
+Validation Kappa has improved. Saving model.
+Epoch 74/300
+ - 1468s - loss: 0.2892 - acc: 0.9081 - val_loss: 0.5068 - val_acc: 0.8276
+val_kappa: 0.3999
+Epoch 75/300
+ - 1435s - loss: 0.2891 - acc: 0.9086 - val_loss: 0.5139 - val_acc: 0.8171
+val_kappa: 0.3575
+Epoch 76/300
+ - 1466s - loss: 0.2906 - acc: 0.9068 - val_loss: 0.6016 - val_acc: 0.7796
+val_kappa: 0.2073
+Epoch 77/300
+ - 1442s - loss: 0.2897 - acc: 0.9072 - val_loss: 0.5400 - val_acc: 0.8065
+val_kappa: 0.3060
+Epoch 78/300
+ - 1473s - loss: 0.2926 - acc: 0.9073 - val_loss: 0.5746 - val_acc: 0.7967
+val_kappa: 0.2787
+Epoch 79/300
+ - 1450s - loss: 0.2881 - acc: 0.9090 - val_loss: 0.5138 - val_acc: 0.8160
+val_kappa: 0.3525
+Epoch 80/300
+ - 1429s - loss: 0.2855 - acc: 0.9086 - val_loss: 0.5422 - val_acc: 0.8076
+val_kappa: 0.3188
+Epoch 81/300
+ - 1322s - loss: 0.2865 - acc: 0.9088 - val_loss: 0.5933 - val_acc: 0.7771
+val_kappa: 0.2119
+Epoch 82/300
+ - 1288s - loss: 0.2924 - acc: 0.9074 - val_loss: 0.4963 - val_acc: 0.8262
+val_kappa: 0.3937
+Epoch 83/300
+ - 1328s - loss: 0.2853 - acc: 0.9091 - val_loss: 0.5194 - val_acc: 0.8120
+val_kappa: 0.3386
+Epoch 84/300
+ - 1290s - loss: 0.2845 - acc: 0.9108 - val_loss: 0.4612 - val_acc: 0.8484
+val_kappa: 0.4951
+Validation Kappa has improved. Saving model.
+Epoch 85/300
+ - 1311s - loss: 0.2865 - acc: 0.9079 - val_loss: 0.5079 - val_acc: 0.8207
+val_kappa: 0.3745
+Epoch 86/300
+ - 1287s - loss: 0.2850 - acc: 0.9085 - val_loss: 0.5088 - val_acc: 0.8258
+val_kappa: 0.3955
+Epoch 87/300
+ - 1301s - loss: 0.2841 - acc: 0.9087 - val_loss: 0.5060 - val_acc: 0.8167
+val_kappa: 0.3435
+Epoch 88/300
+ - 1283s - loss: 0.2865 - acc: 0.9085 - val_loss: 0.5465 - val_acc: 0.7960
+val_kappa: 0.2687
+Epoch 89/300
+ - 1302s - loss: 0.2854 - acc: 0.9087 - val_loss: 0.5320 - val_acc: 0.8025
+val_kappa: 0.3017
+Epoch 90/300
+ - 1302s - loss: 0.2856 - acc: 0.9088 - val_loss: 0.5587 - val_acc: 0.8000
+val_kappa: 0.2910
+Epoch 91/300
+ - 1300s - loss: 0.2785 - acc: 0.9113 - val_loss: 0.6073 - val_acc: 0.7771
+val_kappa: 0.2009
+Epoch 92/300
+ - 1289s - loss: 0.2811 - acc: 0.9106 - val_loss: 0.4918 - val_acc: 0.8222
+val_kappa: 0.3737
+Epoch 93/300
+ - 1302s - loss: 0.2814 - acc: 0.9088 - val_loss: 0.4750 - val_acc: 0.8305
+val_kappa: 0.4070
+Epoch 94/300
+ - 1308s - loss: 0.2846 - acc: 0.9091 - val_loss: 0.5664 - val_acc: 0.7993
+val_kappa: 0.2873
+Epoch 95/300
+ - 1285s - loss: 0.2838 - acc: 0.9102 - val_loss: 0.5214 - val_acc: 0.8018
+val_kappa: 0.3082
+Epoch 96/300
+ - 1328s - loss: 0.2788 - acc: 0.9116 - val_loss: 0.5130 - val_acc: 0.8142
+val_kappa: 0.3605
+Epoch 97/300
+ - 1291s - loss: 0.2840 - acc: 0.9077 - val_loss: 0.5003 - val_acc: 0.8175
+val_kappa: 0.3600
+Epoch 98/300
+ - 1309s - loss: 0.2869 - acc: 0.9075 - val_loss: 0.5651 - val_acc: 0.8058
+val_kappa: 0.3236
+Epoch 99/300
+ - 1297s - loss: 0.2865 - acc: 0.9085 - val_loss: 0.5056 - val_acc: 0.8240
+val_kappa: 0.3889
+Epoch 100/300
+ - 1315s - loss: 0.2895 - acc: 0.9070 - val_loss: 0.4768 - val_acc: 0.8353
+val_kappa: 0.4273
+Epoch 101/300
+ - 1286s - loss: 0.2846 - acc: 0.9099 - val_loss: 0.5245 - val_acc: 0.8167
+val_kappa: 0.3684
+Epoch 102/300
+ - 1318s - loss: 0.2793 - acc: 0.9112 - val_loss: 0.5037 - val_acc: 0.8156
