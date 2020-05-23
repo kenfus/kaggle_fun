@@ -31,4 +31,6 @@ Validation Cohen's Kappa score: 0.4951
 
 ## Todo
 
-Use a pretrained model, maybe Increase the size of the NN. Also take the inbalanced data more into account.
+* Use a pretrained model, just to see the difference
+* Increase the size of this NN and experiment more
+* Clean the files, I think there are many packages which were used at the beginning (e.g. the filters) but not anymore.
