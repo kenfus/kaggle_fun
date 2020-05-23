@@ -17,7 +17,7 @@ I didn't want to use a pretrained model just because I just learned about convol
 Generally, I pretty much just went a standard-approach after seeing that applying filters to the images didn't really improve my score,
 
 thus I tried to keep it clean. With the help of Keras's ImageDataGenerator I created new Data by croping and zooming images. 
-On each plateau I reduced the Learning Rate and stopped training the model when the [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa)wouldn't improve anymore. 
+On each plateau I reduced the Learning Rate and stopped training the model when the [Cohen's kappa](https://en.wikipedia.org/wiki/Cohen%27s_kappa) wouldn't improve anymore. 
 
 On a kaggle-dataset I also saw the idea to not predict classes, but to predict arrays, e.g. 2 -> [0, 0, 1, 0, ,0].
 Because a severity of "2" also contains the severity of "0", "1", "2", the labels get enhanced to [1, 1, 1, 0, 0]. 
