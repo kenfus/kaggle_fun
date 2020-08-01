@@ -25,11 +25,11 @@ This was run on [Euler](https://scicomp.ethz.ch/wiki/Euler).
 
 ## Results
 Validation Accuracy: 0.8484 
-Validation Cohen's Kappa score: 0.4951
+Validation Cohen's Kappa Score: 0.4951
 
 ## Todo
 
-* Use a pretrained model, just to see the difference
+* Use a pretrained model. I saw other participants using a pre-trained model with transfer-learning getting amazing scores (Cohen's Kappa Score of over 0.8).
 * Increase the size of this NN and experiment more
 * Clean the files, I think there are many packages which were used at the beginning (e.g. the filters) but not anymore.
 * Evaluate the lost in Accuracy when using image preprocessing filters to reduce the file-size.
